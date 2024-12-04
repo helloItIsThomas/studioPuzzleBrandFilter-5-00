@@ -1,0 +1,8 @@
+
+hello, what am i trying to do this morning?
+I am using Float32Array to store the positions.
+
+Now, i want to maximize the efficiency of updating the positions of the images, and re-drawing the images at those positions when they have been changed.
+
+This is separate from getting the brightness values from the image.
+I think what would be good for now is to free up the draw loop so it can be constantly running.

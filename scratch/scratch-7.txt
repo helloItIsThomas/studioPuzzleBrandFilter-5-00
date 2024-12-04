@@ -1,0 +1,5 @@
+
+the issue seems with our brightnessTexture, stored in an array called bTexes.
+We are creating brightness textures in a different way with web workers (native js only + image data) vs without web workers (p5js + graphicsBuffers).
+
+now both with and without workers produce native canvases.

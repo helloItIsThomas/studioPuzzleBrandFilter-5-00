@@ -1,0 +1,3 @@
+
+Since p5 has a good way to get brightness info, maybe i use my current p5 implementation to store the brightness data in the cells array. So I will be loading in the 2 background images with p5 js, populating the cell array, but rendering the overlay shapes with pixi.
+

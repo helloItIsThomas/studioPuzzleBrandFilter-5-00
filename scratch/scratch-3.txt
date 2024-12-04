@@ -1,0 +1,3 @@
+
+
+Let's let the user know that in multiImgMode mode, contrast and clipOutliers will not do anything.

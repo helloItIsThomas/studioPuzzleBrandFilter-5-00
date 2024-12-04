@@ -1,0 +1,27 @@
+What do i need to do before handoff?
+____________________________________
+
+Add a max value for gridResolution
+
+add in 
+
+Have a way to switch between modes:
+    1 image in-out
+    1 image scaleDynamically
+    2 image puzzle transition
+
+Edit the following features on any mode:
+    Contrast slider
+    clipOutliers toggle
+    angle
+    xOffset
+    offsetWiggle
+
+~~ Change the gridResolution slider to a textbox ~~
+
+~~ Figure out why the images are sometimes blurry
+    The images are only blurry when we load in a new image during runtime, and the gridResolution is set to a high number. This causes the image to load in small, and therefore be noticably small when the gridResolution is set to a lower number.
+    We can solve this one of three ways:
+        1. We can set the gridResolution to 10 right b4 we upload a new image.
+        2. We can set tempScaler to the same value every time?
+~~            We did this and it seems like it should work.
